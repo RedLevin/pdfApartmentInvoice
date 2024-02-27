@@ -1,0 +1,15 @@
+{
+  "name": "usedom",
+  "workspaces": ["client", "server"],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm --prefix ./client start\" \"npm --prefix ./server start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.0"
+  }
+}
